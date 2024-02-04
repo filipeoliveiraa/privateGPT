@@ -1,0 +1,311 @@
+repo_name: filipeoliveiraa/privateGPT
+report_id: 817a7f93bbd922e6682111cb8d153b0f
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-04T23:14:30+00:00'
+requested_by: imartinez
+provider: github
+branch: main
+detected_tools_count: 17
+tools:
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/filipeoliveiraa/privateGPT
+  detection_source: Repo Metadata
+- name: Chroma
+  description: The AI-native open-source embedding database
+  website_url: https://www.trychroma.com/
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/101828/default_de3ae68ae3ebc7fda7f97083ea89a050444976ff.png
+  detection_source_url: https://github.com/filipeoliveiraa/privateGPT/blob/main/pyproject.toml
+  detection_source: pyproject.toml
+  last_updated_by: Matias Morsa
+  last_updated_on: 2023-07-09 00:10:37.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/filipeoliveiraa/privateGPT
+  detection_source: Repo Metadata
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/filipeoliveiraa/privateGPT/blob/main/pyproject.toml
+  detection_source: pyproject.toml
+  last_updated_by: Matias Morsa
+  last_updated_on: 2023-07-09 00:10:37.000000000 Z
+- name: Pandoc
+  description: A universal document converter
+  website_url: https://pandoc.org/
+  version: '2.3'
+  open_source: true
+  hosted_saas: false
+  category: Assets and Media
+  sub_category: File Conversion
+  image_url: https://img.stackshare.io/service/2330/no-img-open-source.png
+  detection_source_url: https://github.com/filipeoliveiraa/privateGPT/blob/main/poetry.lock
+  detection_source: requirements.txt
+  last_updated_by: jiangzhuo
+  last_updated_on: 2023-05-18 18:18:41.000000000 Z
+- name: GPT4All
+  description: A free-to-use, locally running, privacy-aware chatbot
+  website_url: https://gpt4all.io/index.html
+  version: 1.0.3
+  open_source: false
+  hosted_saas: false
+  category: Communications
+  sub_category: GPT Tools
+  image_url: https://img.stackshare.io/service/109223/default_f477d8a1160a73dc008ccb33efa5d4b9d45baa07.png
+  detection_source_url: https://github.com/filipeoliveiraa/privateGPT/blob/main/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: Matias Morsa
+  last_updated_on: 2023-07-09 00:10:37.000000000 Z
+- name: LLaMA
+  description: A foundational, 65-billion-parameter large language model (By Facebook)
+  website_url: https://ai.meta.com/blog/large-language-model-llama-meta-ai/
+  open_source: true
+  hosted_saas: false
+  category: Communications
+  sub_category: Large Language Models
+  image_url: https://img.stackshare.io/service/101870/default_110df704ee9867cb49e02a51b680222cc0b61823.png
+  detection_source_url: https://github.com/filipeoliveiraa/privateGPT/blob/main/pyproject.toml
+  detection_source: pyproject.toml
+  last_updated_by: Matias Morsa
+  last_updated_on: 2023-07-09 00:10:37.000000000 Z
+- name: LangChain
+  description: Build AI apps with LLMs through composability
+  website_url: https://github.com/hwchase17/langchain
+  version: 0.0.228
+  open_source: true
+  hosted_saas: false
+  category: Communications
+  sub_category: Large Language Model Tools
+  image_url: https://img.stackshare.io/service/48790/default_5b6c6b73f1ff3775c85d2a1ba954cb87e30cbf13.jpg
+  detection_source_url: https://github.com/filipeoliveiraa/privateGPT/blob/main/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: Matias Morsa
+  last_updated_on: 2023-07-09 00:10:37.000000000 Z
+- name: PyMuPDF
+  description: Python bindings for the PDF rendering library MuPDF
+  package_url: https://pypi.org/project/PyMuPDF
+  version: 1.22.5
+  license: AGPL-3.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/filipeoliveiraa/privateGPT/blob/main/pyproject.toml
+  detection_source: pyproject.toml
+  last_updated_by: Matias Morsa
+  last_updated_on: 2023-07-09 00:10:37.000000000 Z
+- name: chromadb
+  description: Chroma
+  package_url: https://pypi.org/project/chromadb
+  version: 0.3.26
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/filipeoliveiraa/privateGPT/blob/main/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: Matias Morsa
+  last_updated_on: 2023-07-09 00:10:37.000000000 Z
+- name: gpt4all
+  description: Python bindings for GPT4All
+  package_url: https://pypi.org/project/gpt4all
+  version: 1.0.3
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/filipeoliveiraa/privateGPT/blob/main/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: Matias Morsa
+  last_updated_on: 2023-07-09 00:10:37.000000000 Z
+- name: langchain
+  description: Building applications with LLMs through composability
+  package_url: https://pypi.org/project/langchain
+  version: 0.0.228
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/filipeoliveiraa/privateGPT/blob/main/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: Matias Morsa
+  last_updated_on: 2023-07-09 00:10:37.000000000 Z
+  vulnerabilities:
+  - name: LangChain vulnerable to arbitrary code execution
+    cve_id: CVE-2023-39659
+    cve_url: https://github.com/advisories/GHSA-prgp-w7vf-ch62
+    detected_date: Dec 8
+    severity: critical
+    first_patched: 0.0.325
+  - name: LangChain vulnerable to arbitrary code execution
+    cve_id: CVE-2023-38896
+    cve_url: https://github.com/advisories/GHSA-92j5-3459-qgp4
+    detected_date: Dec 8
+    severity: critical
+    first_patched: 0.0.236
+  - name: LangChain vulnerable to arbitrary code execution
+    cve_id: CVE-2023-38860
+    cve_url: https://github.com/advisories/GHSA-fj32-q626-pjjc
+    detected_date: Dec 8
+    severity: critical
+    first_patched: 
+  - name: langchain Code Injection vulnerability
+    cve_id: CVE-2023-36095
+    cve_url: https://github.com/advisories/GHSA-gwqq-6vq7-5j86
+    detected_date: Dec 8
+    severity: critical
+    first_patched: 0.0.236
+  - name: Langchain vulnerable to arbitrary code execution
+    cve_id: CVE-2023-34541
+    cve_url: https://github.com/advisories/GHSA-6643-h7h5-x9wh
+    detected_date: Dec 8
+    severity: critical
+    first_patched: 0.0.247
+  - name: langchain arbitrary code execution vulnerability
+    cve_id: CVE-2023-36258
+    cve_url: https://github.com/advisories/GHSA-2qmj-7962-cjq8
+    detected_date: Dec 8
+    severity: critical
+    first_patched: 0.0.247
+  - name: langchain vulnerable to arbitrary code execution
+    cve_id: CVE-2023-36281
+    cve_url: https://github.com/advisories/GHSA-7gfq-f96f-g85j
+    detected_date: Dec 8
+    severity: critical
+    first_patched: 0.0.312
+  - name: Langchain vulnerable to arbitrary code execution via the evaluate function
+      in the numexpr library
+    cve_id: CVE-2023-39631
+    cve_url: https://github.com/advisories/GHSA-f73w-4m7g-ch9x
+    detected_date: Dec 8
+    severity: critical
+    first_patched: 0.0.308
+  - name: langchain vulnerable to arbitrary code execution
+    cve_id: CVE-2023-36188
+    cve_url: https://github.com/advisories/GHSA-57fc-8q82-gfp3
+    detected_date: Dec 8
+    severity: critical
+    first_patched: 0.0.236
+  - name: LangChain Server Side Request Forgery vulnerability
+    cve_id: CVE-2023-46229
+    cve_url: https://github.com/advisories/GHSA-655w-fm8m-m478
+    detected_date: Dec 8
+    severity: high
+    first_patched: 0.0.317
+  - name: Langchain Server-Side Request Forgery vulnerability
+    cve_id: CVE-2023-32786
+    cve_url: https://github.com/advisories/GHSA-6h8p-4hx9-w66c
+    detected_date: Dec 8
+    severity: high
+    first_patched: 0.0.329
+- name: pypandoc
+  description: Thin wrapper for pandoc
+  package_url: https://pypi.org/project/pypandoc
+  version: '1.11'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20206/default_f49d415fc34d42446135e0f46315fb237c002e80.png
+  detection_source_url: https://github.com/filipeoliveiraa/privateGPT/blob/main/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: Matias Morsa
+  last_updated_on: 2023-07-09 00:10:37.000000000 Z
+- name: python-dotenv
+  description: Add .env support to your django/flask apps in development and deployments
+  package_url: https://pypi.org/project/python-dotenv
+  version: 1.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20095/default_3141eabecdd8efa55de73a33c43f2ac0d5bbf954.png
+  detection_source_url: https://github.com/filipeoliveiraa/privateGPT/blob/main/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: Matias Morsa
+  last_updated_on: 2023-07-09 00:10:37.000000000 Z
+- name: tabulate
+  description: Pretty-print tabular data
+  package_url: https://pypi.org/project/tabulate
+  version: 0.9.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19864/default_7975a21f3bf03129dc3bc4168cf7cb7ee2cc14cc.png
+  detection_source_url: https://github.com/filipeoliveiraa/privateGPT/blob/main/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: Matias Morsa
+  last_updated_on: 2023-07-09 00:10:37.000000000 Z
+- name: tqdm
+  description: Fast, Extensible Progress Meter
+  package_url: https://pypi.org/project/tqdm
+  version: 4.65.0
+  license: MPL-2.0,MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19846/default_accee5d2b8ed75c2245f13504daf75b1cbc8cc9f.png
+  detection_source_url: https://github.com/filipeoliveiraa/privateGPT/blob/main/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: Matias Morsa
+  last_updated_on: 2023-07-09 00:10:37.000000000 Z
+- name: urllib3
+  description: HTTP library with thread-safe connection pooling
+  package_url: https://pypi.org/project/urllib3
+  version: 2.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19842/default_4604ff5dcb7f4d9c7b3833591c2142493951b19c.png
+  detection_source_url: https://github.com/filipeoliveiraa/privateGPT/blob/main/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: Matias Morsa
+  last_updated_on: 2023-07-09 00:10:37.000000000 Z
+  vulnerabilities:
+  - name: urllib3's request body not stripped after redirect from 303 status changes
+      request method to GET
+    cve_id: CVE-2023-45803
+    cve_url: https://github.com/advisories/GHSA-g4mx-q9vg-27p4
+    detected_date: Oct 18
+    severity: moderate
+    first_patched: 2.0.7
+  - name: "`Cookie` HTTP header isn't stripped on cross-origin redirects"
+    cve_id: CVE-2023-43804
+    cve_url: https://github.com/advisories/GHSA-v845-jxx5-vc9f
+    detected_date: Oct 3
+    severity: moderate
+    first_patched: 2.0.6

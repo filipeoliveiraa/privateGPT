@@ -4,11 +4,11 @@
 filipeoliveiraa/privateGPT is built on the following main stack:
 
 - [Python](https://www.python.org) – Languages
+- [Chroma](https://www.trychroma.com/) – Vector Databases
 - [Pandoc](https://pandoc.org/) – File Conversion
-- [LangChain](https://github.com/hwchase17/langchain) – Large Language Model Tools
-- [Chroma](https://www.trychroma.com/) – Databases
-- [LLaMA](https://ai.meta.com/blog/large-language-model-llama-meta-ai/) – Large Language Models
 - [GPT4All](https://gpt4all.io/index.html) – GPT Tools
+- [LLaMA](https://ai.meta.com/blog/large-language-model-llama-meta-ai/) – Large Language Models
+- [LangChain](https://github.com/hwchase17/langchain) – Large Language Model Tools
 
 Full tech stack [here](/techstack.md)
 
@@ -19,11 +19,11 @@ Full tech stack [here](/techstack.md)
 filipeoliveiraa/privateGPT is built on the following main stack:
 
 - <img width='25' height='25' src='https://img.stackshare.io/service/993/pUBY5pVj.png' alt='Python'/> [Python](https://www.python.org) – Languages
+- <img width='25' height='25' src='https://img.stackshare.io/service/101828/default_de3ae68ae3ebc7fda7f97083ea89a050444976ff.png' alt='Chroma'/> [Chroma](https://www.trychroma.com/) – Vector Databases
 - <img width='25' height='25' src='https://img.stackshare.io/service/2330/no-img-open-source.png' alt='Pandoc'/> [Pandoc](https://pandoc.org/) – File Conversion
-- <img width='25' height='25' src='https://img.stackshare.io/service/48790/default_5b6c6b73f1ff3775c85d2a1ba954cb87e30cbf13.jpg' alt='LangChain'/> [LangChain](https://github.com/hwchase17/langchain) – Large Language Model Tools
-- <img width='25' height='25' src='https://img.stackshare.io/service/101828/default_de3ae68ae3ebc7fda7f97083ea89a050444976ff.png' alt='Chroma'/> [Chroma](https://www.trychroma.com/) – Databases
-- <img width='25' height='25' src='https://img.stackshare.io/service/101870/default_110df704ee9867cb49e02a51b680222cc0b61823.png' alt='LLaMA'/> [LLaMA](https://ai.meta.com/blog/large-language-model-llama-meta-ai/) – Large Language Models
 - <img width='25' height='25' src='https://img.stackshare.io/service/109223/default_f477d8a1160a73dc008ccb33efa5d4b9d45baa07.png' alt='GPT4All'/> [GPT4All](https://gpt4all.io/index.html) – GPT Tools
+- <img width='25' height='25' src='https://img.stackshare.io/service/101870/default_110df704ee9867cb49e02a51b680222cc0b61823.png' alt='LLaMA'/> [LLaMA](https://ai.meta.com/blog/large-language-model-llama-meta-ai/) – Large Language Models
+- <img width='25' height='25' src='https://img.stackshare.io/service/48790/default_5b6c6b73f1ff3775c85d2a1ba954cb87e30cbf13.jpg' alt='LangChain'/> [LangChain](https://github.com/hwchase17/langchain) – Large Language Model Tools
 
 Full tech stack [here](/techstack.md)
 
@@ -34,7 +34,7 @@ Full tech stack [here](/techstack.md)
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [filipeoliveiraa/privateGPT](https://github.com/filipeoliveiraa/privateGPT)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|17<br/>Tools used|02/04/24 <br/>Report generated|
+|17<br/>Tools used|02/29/24 <br/>Report generated|
 |------|------|
 </div>
 
@@ -137,7 +137,7 @@ Full tech stack [here](/techstack.md)
 |[PyMuPDF](https://pypi.org/project/PyMuPDF)|v1.22.5|07/09/23|Matias Morsa |AGPL-3.0|N/A|
 |[chromadb](https://pypi.org/project/chromadb)|v0.3.26|07/09/23|Matias Morsa |N/A|N/A|
 |[gpt4all](https://pypi.org/project/gpt4all)|v1.0.3|07/09/23|Matias Morsa |N/A|N/A|
-|[langchain](https://pypi.org/project/langchain)|v0.0.228|07/09/23|Matias Morsa |N/A|[CVE-2023-39659](https://github.com/advisories/GHSA-prgp-w7vf-ch62) (Critical)<br/>[CVE-2023-38896](https://github.com/advisories/GHSA-92j5-3459-qgp4) (Critical)<br/>[CVE-2023-38860](https://github.com/advisories/GHSA-fj32-q626-pjjc) (Critical)<br/>[CVE-2023-36095](https://github.com/advisories/GHSA-gwqq-6vq7-5j86) (Critical)<br/>[CVE-2023-34541](https://github.com/advisories/GHSA-6643-h7h5-x9wh) (Critical)<br/>[CVE-2023-36258](https://github.com/advisories/GHSA-2qmj-7962-cjq8) (Critical)<br/>[CVE-2023-36281](https://github.com/advisories/GHSA-7gfq-f96f-g85j) (Critical)<br/>[CVE-2023-39631](https://github.com/advisories/GHSA-f73w-4m7g-ch9x) (Critical)<br/>[CVE-2023-36188](https://github.com/advisories/GHSA-57fc-8q82-gfp3) (Critical)<br/>[CVE-2023-46229](https://github.com/advisories/GHSA-655w-fm8m-m478) (High)<br/>[CVE-2023-32786](https://github.com/advisories/GHSA-6h8p-4hx9-w66c) (High)|
+|[langchain](https://pypi.org/project/langchain)|v0.0.228|07/09/23|Matias Morsa |N/A|[CVE-2023-38860](https://github.com/advisories/GHSA-fj32-q626-pjjc) (Critical)<br/>[CVE-2023-36095](https://github.com/advisories/GHSA-gwqq-6vq7-5j86) (Critical)<br/>[CVE-2023-34541](https://github.com/advisories/GHSA-6643-h7h5-x9wh) (Critical)<br/>[CVE-2023-36258](https://github.com/advisories/GHSA-2qmj-7962-cjq8) (Critical)<br/>[CVE-2023-36281](https://github.com/advisories/GHSA-7gfq-f96f-g85j) (Critical)<br/>[CVE-2023-39631](https://github.com/advisories/GHSA-f73w-4m7g-ch9x) (Critical)<br/>[CVE-2023-39659](https://github.com/advisories/GHSA-prgp-w7vf-ch62) (Critical)<br/>[CVE-2023-36188](https://github.com/advisories/GHSA-57fc-8q82-gfp3) (Critical)<br/>[CVE-2023-38896](https://github.com/advisories/GHSA-92j5-3459-qgp4) (Critical)<br/>[CVE-2023-32786](https://github.com/advisories/GHSA-6h8p-4hx9-w66c) (High)<br/>[CVE-2023-46229](https://github.com/advisories/GHSA-655w-fm8m-m478) (High)<br/>[CVE-2024-0243](https://github.com/advisories/GHSA-h9j7-5xvc-qhg5) (Low)|
 |[pypandoc](https://pypi.org/project/pypandoc)|v1.11|07/09/23|Matias Morsa |MIT|N/A|
 |[python-dotenv](https://pypi.org/project/python-dotenv)|v1.0.0|07/09/23|Matias Morsa |BSD-3-Clause|N/A|
 |[tabulate](https://pypi.org/project/tabulate)|v0.9.0|07/09/23|Matias Morsa |MIT|N/A|
